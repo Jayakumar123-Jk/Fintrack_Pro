@@ -7,6 +7,7 @@ This project helps users manage expenses and track budgets.
 
 Updated by YourName
 
+
 A complete, end-to-end fintech system featuring:
 
 - **Backend**: Node.js, Express, Sequelize, PostgreSQL (Authentication, RBAC, Core APIs)
