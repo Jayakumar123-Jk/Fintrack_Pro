@@ -1,76 +1,92 @@
-<<<<<<< HEAD
-# FinTech Platform
-
 # Fintrack Pro
 
 This project helps users manage expenses and track budgets.
-updated by 
+
+**Updated by:**  
 Kharshavarthan N R
 
+---
+
+# FinTech Platform
 
 A complete, end-to-end fintech system featuring:
 
-- **Backend**: Node.js, Express, Sequelize, PostgreSQL (Authentication, RBAC, Core APIs)
-- **Frontend**: React, TypeScript, Tailwind CSS, Recharts (Dashboards, Analytics, Investments)
-- **ML Service**: Python, FastAPI, Scikit-learn (Expense Categorization, Anomaly Detection, Forecasting)
-- **Infrastructure**: Docker, Docker Compose (Containerization, Orchestration)
-- **Integrations**:
-  - **Mock Bank**: Open Banking-style consent flow and transaction sync.
-  - **Stock Market**: Yahoo Finance integration and portfolio analysis.
-  - **GoCharting**: Advanced technical charting iframe.
+## Tech Stack
 
-## Prerequisites
+### Backend
+- Node.js
+- Express.js
+- Sequelize ORM
+- PostgreSQL Database
+- Authentication & Authorization
+- RBAC (Role Based Access Control)
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) (must be running)
-- [Node.js](https://nodejs.org/) (optional, for local dev without Docker)
+### Frontend
+- React.js
+- TypeScript
+- Tailwind CSS
+- Recharts
+- Financial Dashboard UI
+- Analytics and Reports
 
-## Quick Start
+### ML Service
+- Python
+- FastAPI
+- Scikit-learn
+- Expense Categorization
+- Fraud / Anomaly Detection
+- Financial Forecasting
 
-1.  **Clone the repository**:
-    ```bash
-    git clone <repo-url>
-    cd <repo-folder>
-    ```
+### Infrastructure
+- Docker
+- Docker Compose
+- Containerized Services
+- Service Orchestration
 
-2.  **Start the system**:
-    ```bash
-    docker-compose up --build
-    ```
-    *This command builds the frontend, backend, and ML images, starts PostgreSQL, and links everything.*
+### Integrations
+- Mock Bank API
+- Open Banking Flow
+- Yahoo Finance API
+- Stock Tracking
+- GoCharting Integration
 
-3.  **Access the Application**:
-    - **Frontend**: [http://localhost:5173](http://localhost:5173)
-    - **Backend API**: [http://localhost:4000](http://localhost:4000)
-    - **ML Service**: [http://localhost:8000](http://localhost:8000)
+---
 
-4.  **Default Credentials**:
-    - **Admin User**:
-      - Email: `admin@example.com`
-      - Password: `AdminPass123`
-    - **New User**: You can register a new account on the login page.
+# Project Overview
 
-## Architecture
+Fintrack Pro is a complete fintech platform designed to help users manage finances efficiently.
 
-- **PostgreSQL**: Primary database for users, transactions, budgets, investments.
-- **Backend (Node.js)**: REST API gateway. Handles auth, business logic, and orchestrates calls to ML service.
-- **ML Service (Python)**: Microservice for heavy computational tasks (categorization, isolation forest anomalies).
-- **Frontend (React)**: SPA consuming the Backend API.
+The system provides:
 
-## Features
+- Expense Tracking
+- Budget Management
+- Financial Analytics
+- Portfolio Management
+- AI-Based Recommendations
+- Spending Analysis
+- Forecast Predictions
 
-- **Dashboard**: Real-time overview of net worth, income/expense trends.
-- **Transactions**: Add manual transactions or sync from Mock Bank.
-- **Bank Link**: Simulate linking a bank account (OAuth flow) and syncing transactions.
-- **Budgets**: Set category-wise limits and track spending.
-- **Investments**: Track stock portfolio, get AI recommendations, and view GoCharting technical charts.
-- **Analytics**: Deep dive into spending patterns and financial health.
-- **Admin**: System-wide audit logs and user management (accessible only to Admin).
+Users can monitor:
 
-## Development
+- Daily expenses
+- Monthly spending
+- Investment growth
+- Savings performance
+- Portfolio trends
+- Financial health score
 
-- **Frontend**: `cd frontend && npm install && npm run dev`
-- **Backend**: `cd backend && npm install && npm run dev`
-- **ML**: `cd ml-services && pip install -r requirements.txt && uvicorn app:app --reload`
-=======
-# Fintrack_Pro
->>>>>>> ac307e554f2285ab642f9eb6e8408deb0e79f375
+---
+
+# Prerequisites
+
+Before running the project, install:
+
+- Docker Desktop
+- Node.js
+- npm
+- Python 3.10+
+- PostgreSQL
+
+---
+
+
