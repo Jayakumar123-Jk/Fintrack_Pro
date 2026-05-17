@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FinTech Platform
 
 A complete, end-to-end fintech system featuring:
@@ -63,3 +64,6 @@ A complete, end-to-end fintech system featuring:
 - **Frontend**: `cd frontend && npm install && npm run dev`
 - **Backend**: `cd backend && npm install && npm run dev`
 - **ML**: `cd ml-services && pip install -r requirements.txt && uvicorn app:app --reload`
+=======
+# Fintrack_Pro
+>>>>>>> ac307e554f2285ab642f9eb6e8408deb0e79f375
