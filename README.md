@@ -4,6 +4,7 @@
 # Fintrack Pro
 
 This project helps users manage expenses and track budgets.
+updated by 
 Kharshavarthan N R
 
 
