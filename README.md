@@ -4,8 +4,7 @@
 # Fintrack Pro
 
 This project helps users manage expenses and track budgets.
-
-Updated by YourName
+Kharshavarthan N R
 
 
 A complete, end-to-end fintech system featuring:
