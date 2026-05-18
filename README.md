@@ -7,7 +7,7 @@ Kharshavarthan N R
 
 ---
 
-# FinTech Platform
+## FinTech Platform
 
 A complete, end-to-end fintech system featuring:
 
@@ -52,7 +52,7 @@ A complete, end-to-end fintech system featuring:
 
 ---
 
-# Project Overview
+## Project Overview
 
 Fintrack Pro is a complete fintech platform designed to help users manage finances efficiently.
 
@@ -77,7 +77,7 @@ Users can monitor:
 
 ---
 
-# Prerequisites
+## Prerequisites
 
 Before running the project, install:
 
@@ -89,7 +89,7 @@ Before running the project, install:
 
 ---
 
-# Fintrack Pro
+## Overview
 
 A complete fintech platform designed to help users manage expenses, budgets, investments, and financial analytics.
 
@@ -102,7 +102,7 @@ GitHub: **Kharsha162**
 
 ---
 
-# Overview
+### About
 
 Fintrack Pro is a modern financial management platform built to help users:
 
@@ -123,9 +123,9 @@ The platform combines:
 
 ---
 
-# Tech Stack
+## Tech Stack
 
-## Frontend
+### Frontend (detailed)
 
 - React.js
 - TypeScript
@@ -186,9 +186,9 @@ The platform combines:
 
 ---
 
-# Key Features
+## Key Features
 
-## 1. Dashboard
+### 1. Dashboard
 
 Users can monitor:
 
@@ -268,7 +268,7 @@ AI system provides:
 
 ---
 
-# Installation Guide
+## Installation Guide
 
 ## Prerequisites
 
@@ -307,7 +307,7 @@ This command:
 
 ---
 
-# Local Development
+## Local Development
 
 ## Frontend
 
@@ -339,7 +339,7 @@ uvicorn app:app --reload
 
 ---
 
-# API Features
+## API Features
 
 ### Authentication API
 - Register
@@ -364,7 +364,7 @@ uvicorn app:app --reload
 
 ---
 
-# Future Roadmap
+## Future Roadmap
 
 Upcoming features:
 
@@ -379,7 +379,7 @@ Upcoming features:
 
 ---
 
-# Contribution Log
+## Contribution Log
 
 Version 1.0
 - Project Setup
@@ -404,7 +404,7 @@ Version 1.4
 
 ---
 
-# Notes
+## Notes
 
 This project is created for learning and fintech experimentation.
 

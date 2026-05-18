@@ -5,6 +5,23 @@ build
 .env.*
 coverage
 .DS_Store
+Thumbs.db
 *.pyc
 __pycache__
 
+# Local databases / large binary assets that should not be tracked
+*.sqlite
+*.sqlite-journal
+*.db
+*.traineddata
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp

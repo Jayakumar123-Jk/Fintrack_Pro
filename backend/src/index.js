@@ -51,6 +51,14 @@ app.use(express.json({ limit: "1mb" }));
 app.use(cookieParser());
 
 app.get("/api/health", (req, res) => res.json({ ok: true }));
+app.get("/api/version", (req, res) =>
+  res.json({
+    name: "fin-tech-backend",
+    version: "1.0.0",
+    node: process.version,
+    uptime: process.uptime()
+  })
+);
 app.use("/api/auth", authRoutes);
 app.use("/api/transactions", transactionsRoutes);
 app.use("/api/budgets", budgetsRoutes);
