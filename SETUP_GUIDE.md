@@ -436,4 +436,27 @@ This guide exists for setup assistance and documentation.
 
 Contributors are encouraged to improve documentation where possible.
 
-End of Setup Guide. 
+# Fintrack_Pro Setup Guide
+
+This guide explains how to set up and run the Fintrack_Pro project locally.
+
+---
+
+# Prerequisites
+
+Make sure the following tools are installed:
+
+- Node.js
+- Git
+- VS Code
+- MongoDB (optional)
+
+---
+
+# Clone Repository
+
+Run the following command:
+
+```bash
+git clone https://github.com/Jayakumar123-Jk/Fintrack_Pro.git
+
